@@ -1,0 +1,4 @@
+[submodule "sourcedata"]
+	path = sourcedata
+	url = ./sourcedata
+	datalad-id = 9864f25b-a9c2-437d-80dc-1219f2edcf06
