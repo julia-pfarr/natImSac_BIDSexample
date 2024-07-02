@@ -1,0 +1,107 @@
+{
+    "Manufacturer": "SR-Research",
+    "PhysioType": "eyetrack",
+    "Columns": [
+        "timestamp",
+        "x_coordinate",
+        "y_coordinate",
+        "pupil_size"
+    ],
+    "timestamp": {
+        "Description": "Timestamp issued by the eye-tracker indexing the continuous recordings corresponding to the sampled eye."
+    },
+    "x_coordinate": {
+        "Description": "Gaze position x-coordinate of the recorded eye, in the coordinate units specified in the corresponding metadata sidecar.",
+        "Units": "a.u."
+    },
+    "y_coordinate": {
+        "Description": "Gaze position y-coordinate of the recorded eye, in the coordinate units specified in the corresponding metadata sidecar.",
+        "Units": "a.u."
+    },
+    "pupil_size": {
+        "Description": "Pupil area of the recorded eye as calculated by the eye-tracker in arbitrary units (see EyeLink's documentation for conversion).",
+        "Units": "a.u."
+    },
+    "EnvironmentCoordinates": "top-left",
+    "SampleCoordinateSystem": "gaze-on-screen",
+    "SampleCoordinateUnits": "pixel",
+    "ManufacturersModelName": "EYELINK II CL v5.12 May 12 2017",
+    "DeviceSerialNumber": "CLG-BAF38",
+    "PupilFitMethod": "CENTROID",
+    "SamplingFrequency": 1000,
+    "StartTime": [
+        910429
+    ],
+    "StopTime": [
+        1251424
+    ],
+    "EyeTrackingMethod": "P-CR",
+    "CalibrationCount": 1,
+    "CalibrationUnit": "pixel",
+    "CalibrationType": "HV13",
+    "CalibrationPosition": [
+        [
+            960,
+            540
+        ],
+        [
+            960,
+            732
+        ],
+        [
+            1126,
+            444
+        ],
+        [
+            576,
+            540
+        ],
+        [
+            1344,
+            540
+        ],
+        [
+            768,
+            873
+        ],
+        [
+            1152,
+            873
+        ],
+        [
+            768,
+            207
+        ],
+        [
+            1152,
+            207
+        ],
+        [
+            794,
+            636
+        ],
+        [
+            1126,
+            636
+        ],
+        [
+            794,
+            444
+        ],
+        [
+            960,
+            348
+        ]
+    ],
+    "RecordedEye": "Right",
+    "AverageCalibrationError": [
+        [
+            0.48
+        ]
+    ],
+    "MaximalCalibrationError": [
+        [
+            0.74
+        ]
+    ]
+}
