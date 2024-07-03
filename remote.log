@@ -1,1 +1,2 @@
 427b2752-47fa-4573-9249-86fe7fc4b55a autoenable=true embedcreds=no encryption=none name=github-lfs type=git-lfs url=git@github.com:julia-pfarr/natImSac_BIDS-eyetrack-data.git timestamp=1719933437s
+deaba2ec-3a75-4fcf-9c3b-771f79e9ccb5 autoenable=true encryption=none externaltype=osf name=osf-annex2-storage node=4ynm5 type=external timestamp=1720003524s
