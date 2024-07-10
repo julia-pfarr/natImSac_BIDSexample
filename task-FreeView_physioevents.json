@@ -16,20 +16,5 @@
     },
     "trial_type": {
         "Description": "Event type as identified by the eye-tracker's model ((either 'n/a' if not applicabble, 'fixation', or 'saccade')."
-    },
-    "InstitutionAddress": "27 Bd Jean Moulin, 13005 Marseille, France",
-    "InstitutionName": "Institut de Neurosciences de la Timone",
-    "StimulusPresentation": {
-        "ScreenDistance": 60,
-        "ScreenRefreshRate": 120,
-        "ScreenSize": [
-            0.696,
-            0.391
-        ],
-        "ScreenResolution": [
-            1919,
-            1079
-        ]
-    },
-    "TaskName": ""
+    }
 }
