@@ -28,6 +28,7 @@
         "Description": "Index number of the image displayed from https://github.com/mszinte/natImSac/tree/main/stim."
     },
     "TaskName": "FreeView",
+    "EnvironmentCoordinates": "top-left",
     "InstitutionAddress": "27 Bd Jean Moulin, 13005 Marseille, France",
     "InstitutionName": "Institut de Neurosciences de la Timone",
     "StimulusPresentation": {

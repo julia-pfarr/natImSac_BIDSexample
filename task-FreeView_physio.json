@@ -22,7 +22,6 @@
         "Description": "Pupil area of the recorded eye as calculated by the eye-tracker in arbitrary units (see EyeLink's documentation for conversion).",
         "Units": "a.u."
     },
-    "EnvironmentCoordinates": "top-left",
     "SampleCoordinateSystem": "gaze-on-screen",
     "SampleCoordinateUnits": "pixel",
     "ManufacturersModelName": "EYELINK II CL v5.12 May 12 2017",
