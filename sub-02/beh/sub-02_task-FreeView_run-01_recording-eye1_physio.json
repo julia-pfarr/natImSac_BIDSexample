@@ -1,10 +1,6 @@
 {
-    "StartTime": [
-        13940646
-    ],
-    "StopTime": [
-        14233273
-    ],
+    "StartTime": 13940646,
+    "StopTime": 14233273,
     "CalibrationCount": 1,
     "CalibrationUnit": "pixel",
     "CalibrationType": "HV13",
