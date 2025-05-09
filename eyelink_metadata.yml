@@ -6,12 +6,9 @@
 # and fill the fields below according to the data types given in the specification.
 
 # REQUIRED, fill according to BIDS specification (!the converter will not run successfully if you leave this empty!):
-SampleCoordinateUnits: "pixel"
-SampleCoordinateSystem: "gaze-on-screen"
-EnvironmentCoordinates: "top-left"
-ScreenDistance: 60
-ScreenRefreshRate: 120
-ScreenSize: [0.696, 0.391]
+Units: pixel
+SampleCoordinateSystem: gaze-on-screen
+EnvironmentCoordinates: top-left
 
 # Recommended (leave empty if not available but put information you want to share with your dataset here!):
 SoftwareVersion: 
@@ -21,7 +18,10 @@ EyeTrackerDistance:
 FeatureDetectionSettings:
 GazeMappingSettings:
 RawDataFilters:
-InstitutionName: "Institut de Neurosciences de la Timone"
-InstitutionAddress: "27 Bd Jean Moulin, 13005 Marseille, France"
+InstitutionName: Institut de Neurosciences de la Timone
+InstitutionAddress: 27 Bd Jean Moulin, 13005 Marseille, France
+ScreenDistance: 60
+ScreenRefreshRate: 120
+ScreenSize: [0.696, 0.391]
 
 

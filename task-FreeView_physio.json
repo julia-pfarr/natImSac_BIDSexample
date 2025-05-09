@@ -8,22 +8,26 @@
         "pupil_size"
     ],
     "timestamp": {
-        "Description": "Timestamp issued by the eye-tracker indexing the continuous recordings corresponding to the sampled eye."
+        "Description": "a continuously increasing identifier of the sampling time registered by the device",
+        "Units": "ms",
+        "Origin": "SystemStartup"
+
     },
     "x_coordinate": {
+        "LongName": "Gaze position (x)",
         "Description": "Gaze position x-coordinate of the recorded eye, in the coordinate units specified in the corresponding metadata sidecar.",
-        "Units": "a.u."
+        "Units": "pixel"
     },
     "y_coordinate": {
+        "LongName": "Gaze position (y)",
         "Description": "Gaze position y-coordinate of the recorded eye, in the coordinate units specified in the corresponding metadata sidecar.",
-        "Units": "a.u."
+        "Units": "pixel"
     },
     "pupil_size": {
         "Description": "Pupil area of the recorded eye as calculated by the eye-tracker in arbitrary units (see EyeLink's documentation for conversion).",
         "Units": "a.u."
     },
     "SampleCoordinateSystem": "gaze-on-screen",
-    "SampleCoordinateUnits": "pixel",
     "ManufacturersModelName": "EYELINK II CL v5.12 May 12 2017",
     "DeviceSerialNumber": "CLG-BAF38",
     "PupilFitMethod": "CENTROID",
