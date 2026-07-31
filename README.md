@@ -13,3 +13,36 @@ Project : natImSac
 With : Guillaume Masson, Jason Samonds & Nicholas Priebe Version: 1.0
 
 Experiment in which human participant free view natural images to determine saccade and fixation statistics. Published paper: https://doi.org/10.1523/ENEURO.0287-23.2023
+
+### Getting the data
+
+This dataset is managed with [DataLad](https://www.datalad.org/). The `.tsv.gz` physio and physioevents files are tracked via git-annex and stored on an OSF remote, so cloning the repo alone only gets you the file metadata, not the actual file contents.
+
+1. Install DataLad (if not already installed):
+
+   ```bash
+   pip install datalad
+   ```
+
+2. Install the `datalad-osf` extension, which is required to retrieve annexed content from the OSF remote:
+
+   ```bash
+   pip install datalad-osf
+   ```
+
+3. Clone the dataset:
+
+   ```bash
+   datalad clone https://github.com/julia-pfarr/natImSac_BIDSexample.git natImSac_BIDSexample
+   cd natImSac_BIDSexample
+   ```
+
+4. Retrieve the actual data content:
+
+   ```bash
+   # get everything
+   datalad get .
+
+   # or get a specific file/subject
+   datalad get sub-01/beh/sub-01_task-FreeView_run-01_recording-eye1_physio.tsv.gz
+   ```
