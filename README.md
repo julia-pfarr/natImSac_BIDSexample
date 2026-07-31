@@ -18,7 +18,7 @@ Experiment in which human participant free view natural images to determine sacc
 
 This dataset is managed with [DataLad](https://www.datalad.org/). The `.tsv.gz` physio and physioevents files are tracked via git-annex and stored on an OSF remote, so cloning the repo alone only gets you the file metadata, not the actual file contents.
 
-1. Install DataLad (if not already installed):
+1. Install DataLad (see detailed instructions in the [datalad handbook](https://handbook.datalad.org/en/latest/intro/installation.html)):
 
    ```bash
    pip install datalad
